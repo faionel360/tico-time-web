@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tico Time — Relojes modificados a mano</title>
+  <meta name="description" content="Tico Time: relojes modificados a mano en Costa Rica. Ediciones únicas, armadas y ajustadas a pedido.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Intro de bienvenida -->
+  <div id="intro" class="intro">
+    <video id="intro-video" class="intro__video" src="assets/video/relojloop.mp4" muted playsinline autoplay loop></video>
+    <div class="intro__fade"></div>
+    <div class="intro__brand">
+      <div class="intro__title">Tico Time</div>
+      <div class="intro__tagline">Relojes modificados a mano</div>
+    </div>
+    <button id="intro-skip" class="intro__skip" type="button">Entrar</button>
+  </div>
+
+  <!-- Navegación -->
+  <nav class="nav">
+    <div class="nav__logo">Tico Time</div>
+    <div class="nav__links">
+      <a href="#coleccion" class="nav__link">Colección</a>
+      <a href="#contacto" class="nav__link">Contacto</a>
+      <a href="#contacto" class="nav__link nav__link--cta">Reservar</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <video id="hero-video" class="hero__video" src="assets/video/relojloop.mp4" muted playsinline autoplay></video>
+      <div class="hero__gradient-bottom"></div>
+      <div class="hero__gradient-side"></div>
+      <div class="hero__content">
+        <div class="hero__main">
+          <div class="hero__eyebrow">Costa Rica · Ediciones únicas</div>
+          <h1 class="hero__title">El tiempo, <em>reinterpretado</em></h1>
+          <p class="hero__desc">Tomamos calibres probados y los volvemos piezas irrepetibles. Cada mod se arma a mano, se ajusta y se entrega con su ficha de proyecto.</p>
+          <div class="hero__actions">
+            <a href="#coleccion" class="btn btn--primary">Ver proyectos</a>
+            <a href="#contacto" class="btn btn--outline">Encargar el mío</a>
+          </div>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <div class="stat__num">120+</div>
+            <div class="stat__label">Mods entregados</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">14 días</div>
+            <div class="stat__label">Tiempo de armado</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">1 de 1</div>
+            <div class="stat__label">Cada configuración</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Colección -->
+    <section id="coleccion" class="collection">
+      <div class="collection__header">
+        <div>
+          <div class="eyebrow">01 — Colección</div>
+          <h2 class="section-title">Proyectos de reloj</h2>
+        </div>
+        <p class="collection__intro-text">Seis configuraciones base. Todas se pueden llevar a tu propia combinación de caja, dial y agujas.</p>
+      </div>
+
+      <div class="collection__grid">
+        <article class="card-mod">
+          <div class="card-mod__photo"><img src="assets/img/sargento-verde.svg" alt="Mod Sargento Verde"></div>
+          <div class="card-mod__body">
+            <div>
+              <div class="card-mod__name">Sargento Verde</div>
+              <div class="card-mod__specs">NH35 · Dial sunburst · Bisel cerámico</div>
+            </div>
+            <div class="card-mod__price">₡215k</div>
+          </div>
+        </article>
+        <article class="card-mod">
+          <div class="card-mod__photo"><img src="assets/img/pura-vida.svg" alt="Mod Pura Vida"></div>
+          <div class="card-mod__body">
+            <div>
+              <div class="card-mod__name">Pura Vida</div>
+              <div class="card-mod__specs">NH36 · Dial lacado · Agujas oro</div>
+            </div>
+            <div class="card-mod__price">₡240k</div>
+          </div>
+        </article>
+        <article class="card-mod">
+          <div class="card-mod__photo"><img src="assets/img/medianoche.svg" alt="Mod Medianoche"></div>
+          <div class="card-mod__body">
+            <div>
+              <div class="card-mod__name">Medianoche</div>
+              <div class="card-mod__specs">Caja PVD · Dial mate · Lume azul</div>
+            </div>
+            <div class="card-mod__price">₡290k</div>
+          </div>
+        </article>
+        <article class="card-mod">
+          <div class="card-mod__photo"><img src="assets/img/arenal.svg" alt="Mod Arenal"></div>
+          <div class="card-mod__body">
+            <div>
+              <div class="card-mod__name">Arenal</div>
+              <div class="card-mod__specs">Dial degradado · Cristal domo · Bronce</div>
+            </div>
+            <div class="card-mod__price">₡310k</div>
+          </div>
+        </article>
+        <article class="card-mod">
+          <div class="card-mod__photo"><img src="assets/img/cafetal.svg" alt="Mod Cafetal"></div>
+          <div class="card-mod__body">
+            <div>
+              <div class="card-mod__name">Cafetal</div>
+              <div class="card-mod__specs">Dial café · Correa cuero · Vintage lume</div>
+            </div>
+            <div class="card-mod__price">₡225k</div>
+          </div>
+        </article>
+        <article class="card-mod">
+          <div class="card-mod__photo"><img src="assets/img/cero-uno.svg" alt="Mod Cero Uno"></div>
+          <div class="card-mod__body">
+            <div>
+              <div class="card-mod__name">Cero Uno</div>
+              <div class="card-mod__specs">Skeleton · Caja acero pulido · Edición 1/1</div>
+            </div>
+            <div class="card-mod__price">₡420k</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contacto / Reserva -->
+    <section id="contacto" class="contact">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <div class="eyebrow">02 — Reservá</div>
+          <h2 class="section-title">Dejanos tus datos y te escribimos</h2>
+          <p class="contact__desc">Contanos qué proyecto te gustó. Te llamamos para definir caja, dial y fecha de entrega.</p>
+          <div class="contact__details">
+            <div>San José, Costa Rica</div>
+            <div>hola@ticotime.cr</div>
+            <div>Instagram · @ticotime.cr</div>
+          </div>
+        </div>
+
+        <div class="contact__card">
+          <!-- Formulario -->
+          <form id="reservation-form" class="reservation-form">
+            <div class="field">
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Allan Rodríguez" required>
+            </div>
+            <div class="field">
+              <label for="telefono">Número de teléfono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="8888 8888" required>
+            </div>
+            <div class="field">
+              <label for="proyecto">Proyecto de interés</label>
+              <select id="proyecto" name="proyecto">
+                <option value="Sargento Verde">Sargento Verde</option>
+                <option value="Pura Vida">Pura Vida</option>
+                <option value="Medianoche">Medianoche</option>
+                <option value="Arenal">Arenal</option>
+                <option value="Cafetal">Cafetal</option>
+                <option value="Cero Uno">Cero Uno</option>
+                <option value="Todavía no sé">Todavía no sé</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn--primary btn--block">Quiero mi mod</button>
+            <div class="reservation-form__note">Solo usamos tus datos para contactarte sobre tu proyecto. También podés escribirnos directo por <a id="whatsapp-link" href="#" target="_blank" rel="noopener">WhatsApp</a>.</div>
+          </form>
+
+          <!-- Confirmación -->
+          <div id="reservation-confirm" class="reservation-confirm" hidden>
+            <div class="reservation-confirm__title">¡Listo, <span id="confirm-name"></span>!</div>
+            <p class="reservation-confirm__text">Recibimos tu solicitud. Te contactamos al <span id="confirm-phone"></span> en menos de 24 horas.</p>
+            <a id="whatsapp-link-confirm" class="btn btn--whatsapp" href="#" target="_blank" rel="noopener">Escribir por WhatsApp ahora</a>
+            <button id="reservation-reset" type="button" class="btn btn--ghost">Enviar otro</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lista de espera -->
+    <section class="waitlist">
+      <div class="waitlist__inner">
+        <div class="eyebrow">Lista de espera</div>
+        <h3 class="waitlist__title">Enterate primero de cada nueva serie</h3>
+        <form id="waitlist-form" class="waitlist__form">
+          <input type="email" id="correo" name="correo" placeholder="tu@correo.com" required>
+          <button id="waitlist-btn" type="submit" class="btn btn--light">Sumarme</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__logo">Tico Time</div>
+    <div class="footer__copy">© 2026 Tico Time · Relojes modificados a mano · Costa Rica</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
